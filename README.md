@@ -1,28 +1,10 @@
-# Rolling Rhino Remix Website
+# Carousel variation
 
-https://rollingrhino.org
+This branch just holds the `home.css` and `home.jsx` source files with the image carousel variation at the start of the page, rather than the laptop variation, this is just to keep the work, in case we ever want to revert to using this variation.
 
-This is the official repository for the Rolling Rhino Remix. Rolling Rhino Remix is an un-official Ubuntu flavour which converts the Ubuntu operating system into a rolling release Linux distriibution by tracking the devel series. A rolling release distribution is a Linux distribution which receives continuous package updates, and as such there is no major update (unlike Ubuntu's current release model where there is clear progression between versions). A rolling release model offers new and experienced users a new way to utilise their desktop PC, without the hassle of major upgrades.
-Credits:
+To implement this:
+1) Clone the [main](https://github.com/notmax6677/notmax6677.github.io) branch.
+2) Replace `source/src/css/Home/Home.css` with the `Home.css` variation on this repository.
+3) Replace `source/src/jsx/pages/Home.jsx` with `Home.jsx` from this repository.
 
-- Created by: MrBeeBenson
-
-# Edit
-
-new website for Rolling Rhino Remix currently in development
-
-you can see the latest build of it [here](https://notmax6677.github.io)
-
-# Running locally
-
-`git clone` this repo
-
-cd into `source`
-
-(you need NodeJS installed)
-
-run `npm install`
-
-to run the development server to preview the site locally, run `npm run dev`
-
-have fun!
+That's all, you've reverted the home page to the carousel variation :)
